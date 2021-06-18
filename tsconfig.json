@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../../../docs/snippets",
+    "outDir": "./dist",
+    "target": "es5",
+    "lib": [
+      "es7",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "./public",
+    "dist",
+    "test"
+  ],
+  "noImplicitAny": true,
+  "strictFunctionTypes": true,
+  "strict": true,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+}

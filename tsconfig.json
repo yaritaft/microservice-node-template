@@ -26,7 +26,8 @@
     "node_modules",
     "./public",
     "dist",
-    "test"
+    "test",
+    "./data"
   ],
   "noImplicitAny": true,
   "strictFunctionTypes": true,
